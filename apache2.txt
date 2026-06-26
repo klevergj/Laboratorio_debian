@@ -2,3 +2,22 @@
 1.- vamos a instalar apache  codigo: apt install apache2 -y
 2.- vamos a vergiaur que ip tengo codigo ip a
 3.-  entramos al navegador de windows con la ip y si aparece  Apache 2 Dibian defaul Page, ya esta?
+4.- ahora vamos a cambiar nuestro inicio de apache y lo voy a subir a aca, ams abajo.
+///***//***/*/*/*/*/*/
+paso a paso, 
+1.- debemos entrar como root 
+su -
+2.- demos dirigirnos a la siguiente direccion cd /var/www/html/
+3.- mirar que archivos estan ahi ls -l
+4.- borramos en la siguiente direccion rm index.html
+5.- y creamos nuestro propio archivo on touch y editamos con  nano index.html
+6.- damos en guardar con ctrl+o
+7.- y salir con ctrl+x
+/****//*/*/*/*/ ahora le vamos a pasar el reporitorio
+1.- salimos del root con exit
+2.- vamos a copia el archivo que creamos  con cp /var/www/html/index.html ~/Laboratorio/
+3.- y entramos a la carpeta de Laboratorio con cd Laboratorio
+4.- y mandamos a guardar como antes git add index.html
+git commit -m "Añadida la página web index.html personalizada"
+git push origin main
+
