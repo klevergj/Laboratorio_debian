@@ -1,0 +1,4 @@
+//***** creacion de un servidor***////
+1.- vamos a instalar apache  codigo: apt install apache2 -y
+2.- vamos a vergiaur que ip tengo codigo ip a
+3.-  entramos al navegador de windows con la ip y si aparece  Apache 2 Dibian defaul Page, ya esta?
