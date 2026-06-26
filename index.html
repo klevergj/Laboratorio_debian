@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ELMauGJ Server</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+color:white;
+overflow-x:hidden;
+
+}
+
+header{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+
+}
+
+.hero{
+
+max-width:900px;
+
+}
+
+.logo{
+
+font-size:70px;
+font-weight:bold;
+letter-spacing:5px;
+background:linear-gradient(90deg,#38bdf8,#60a5fa,#3b82f6);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+animation:float 3s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+50%{
+transform:translateY(-10px);
+}
+
+}
+
+.hero h2{
+
+margin-top:20px;
+font-size:40px;
+
+}
+
+.hero p{
+
+margin-top:15px;
+font-size:18px;
+color:#d1d5db;
+line-height:30px;
+
+}
+
+.button{
+
+margin-top:40px;
+display:inline-block;
+padding:15px 35px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:18px;
+transition:.4s;
+
+}
+
+.button:hover{
+
+background:#1d4ed8;
+transform:translateY(-5px);
+
+}
+
+.container{
+
+width:90%;
+max-width:1200px;
+margin:auto;
+
+}
+
+.section{
+
+padding:80px 0;
+
+}
+
+.title{
+
+text-align:center;
+font-size:35px;
+margin-bottom:50px;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+
+}
+
+.card{
+
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+transition:.4s;
+border:1px solid rgba(255,255,255,.05);
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+box-shadow:0px 20px 40px rgba(0,0,0,.4);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+color:#38bdf8;
+
+}
+
+.card p{
+
+line-height:28px;
+color:#d1d5db;
+
+}
+
+.status{
+
+display:flex;
+justify-content:center;
+align-items:center;
+gap:10px;
+margin-top:25px;
+
+}
+
+.dot{
+
+width:15px;
+height:15px;
+border-radius:50%;
+background:#00ff66;
+box-shadow:0 0 15px #00ff66;
+
+animation:blink 2s infinite;
+
+}
+
+@keyframes blink{
+
+50%{
+opacity:.4;
+}
+
+}
+
+footer{
+
+padding:40px;
+text-align:center;
+background:#020617;
+margin-top:80px;
+
+}
+
+footer p{
+
+color:#94a3b8;
+
+}
+
+.code{
+
+background:#0f172a;
+padding:15px;
+border-radius:10px;
+margin-top:15px;
+font-family:Consolas;
+color:#22c55e;
+overflow:auto;
+
+}
+
+@media(max-width:768px){
+
+.logo{
+
+font-size:45px;
+
+}
+
+.hero h2{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<div class="logo">
+ELMauGJ
+</div>
+
+<h2>Servidor Oficial Debian 13</h2>
+
+<p>
+
+Bienvenido al servidor personal de desarrollo de <strong>Mauri</strong>.
+
+Este entorno está preparado para alojar aplicaciones, servicios web,
+bases de datos, automatizaciones, Docker, APIs y futuros proyectos.
+
+</p>
+
+<div class="status">
+
+<div class="dot"></div>
+
+Servidor en Línea
+
+</div>
+
+<a href="#info" class="button">
+Explorar Servidor
+</a>
+
+</div>
+
+</header>
+
+<section class="section" id="info">
+
+<div class="container">
+
+<h2 class="title">
+Información del Servidor
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🐧 Sistema Operativo</h3>
+
+<p>
+
+Debian 13
+<br>
+Servidor optimizado para desarrollo, estabilidad y seguridad.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🌐 Servidor Web</h3>
+
+<p>
+
+Apache HTTP Server
+
+<br>
+
+Hospedaje de aplicaciones web y proyectos personales.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>⚙ Tecnologías</h3>
+
+<p>
+
+HTML
+
+<br>
+
+CSS
+
+<br>
+
+JavaScript
+
+<br>
+
+PHP
+
+<br>
+
+MySQL
+
+<br>
+
+ASP.NET
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚀 Próximamente</h3>
+
+<p>
+
+Docker
+
+<br>
+
+Git
+
+<br>
+
+Nginx
+
+<br>
+
+Automatización
+
+<br>
+
+Virtualización
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="title">
+Estado del Proyecto
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Servidor</h3>
+
+<p>
+
+✔ Apache funcionando
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Seguridad</h3>
+
+<p>
+
+✔ Firewall
+
+<br>
+
+✔ SSH
+
+<br>
+
+✔ Usuarios Linux
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Objetivo</h3>
+
+<p>
+
+Crear un entorno profesional para publicar aplicaciones y aprender
+infraestructura moderna.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="title">
+
+Terminal
+
+</h2>
+
+<div class="code">
+
+root@ELMauGJ:~# systemctl status apache2
+
+<br><br>
+
+● apache2.service - The Apache HTTP Server
+
+<br>
+
+Loaded: loaded
+
+<br>
+
+Active: active (running)
+
+<br>
+
+Status: ONLINE
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2 style="margin-bottom:15px;">ELMauGJ Server</h2>
+
+<p>
+
+Desarrollado por Mauri • Debian 13 • Apache • HTML5 • CSS3
+
+</p>
+
+<p style="margin-top:10px;">
+
+© 2026 Todos los derechos reservados.
+
+</p>
+
+</footer>
+
+</body>
+</html>
