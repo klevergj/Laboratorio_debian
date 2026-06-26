@@ -1,3 +1,4 @@
+
 Este es el Archivo que se suvio desde mi servidor en Debian. :).
 para lo cual voy a ejar los codigos en esta parte:
 1: dentro de debian cree una carpeta llamada Laboratorio.
@@ -7,3 +8,26 @@ codigo  mkdir Laboratorio
 3.- dentro del cual coloque un texto para la primera visualizacion, 
 para guardarlo uso ctrl + o, posteiormente enter y ctrl+x para salir.
 4 con comandos de git le pude enviar.
+*********----------------------------------------------------------**
+codigos github para enviar desde el servido a git
+antes que todo ya debes vinculartu cuenta con el servidor, eso esta en el cuaderno.
+
+primero paso. creamos en el navegador un repositorio alcual vamos a enviar desde el servidor todo
+ejemplo yo cree el repositorio Laboratorio_debian, lo malo es que cree con readme
+pero no pasa nada.
+dentro de la carpeta en el servidor Laboratorio, esto es en Debian
+1.- entramos a la carpeta con cd Laboratorio
+2.- echo "mi primera enviada"> primeros.txt
+3.- git add primeros.txt   /// esto es para mi, creo que es un tipo añadir a una pila algo asi
+4.- git commit -u m "primer titulo"    //esto es para mi al igual creo que es otro titulo que apareceen git, mencionando el porque.
+5.- git branch -M main  ///esto es for me, la primera vez se hace esto
+6.- git push -u origin main   /// con esto ya se va... jeje
+ ahora si te da un error bueno no es error, y tr pide el email con git config --user.email and --user.name colocalos y posteriormente sigues lo que falta, o si es necesario 
+7.- git push -u origin main --force, ya que creamos el readme al principio, pero si esta en blanco no pasa nada.
+*****----------------------------------------****
+ahora para que cuando necesites solo actualizar el archivo, por ejemplo este de primeros.txt
+usa solo estos tres codigos.
+1.- git add primeros.txt
+2.- git commit -m "es la actualizacion"
+3.- git push -u origin main
+ y eso seria todo, clase 3 
