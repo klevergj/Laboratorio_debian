@@ -31,3 +31,10 @@ usa solo estos tres codigos.
 2.- git commit -m "es la actualizacion"
 3.- git push -u origin main
  y eso seria todo, clase 3 
+//************************************
+para ponerlos en linea sin ninguna apk
+puedes usar esto
+1.-ssh -R 80:localhost:80 localhost.run
+2.- ssh -R 80:192.168.1.15:80 serveo.netssh
+para apagrlo se necesita colocar ctrl+c y listo se puede ver de donde sea
+ 
