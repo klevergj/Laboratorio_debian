@@ -1,1 +1,9 @@
-mi primer archivo
+Este es el Archivo que se suvio desde mi servidor en Debian. :).
+para lo cual voy a ejar los codigos en esta parte:
+1: dentro de debian cree una carpeta llamada Laboratorio.
+codigo  mkdir Laboratorio
+2 Dentro de la cerpeta cree un archivo llamado primeros.txt
+ touch primeros.txt
+3.- dentro del cual coloque un texto para la primera visualizacion, 
+para guardarlo uso ctrl + o, posteiormente enter y ctrl+x para salir.
+4 con comandos de git le pude enviar.
