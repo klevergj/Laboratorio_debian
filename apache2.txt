@@ -20,4 +20,9 @@ su -
 4.- y mandamos a guardar como antes git add index.html
 git commit -m "Añadida la página web index.html personalizada"
 git push origin main
-
+///****///** php
+instalacion de php 
+1.- entrar como root
+2.- apt install php libapache2-mod-php -y
+3.- resetear apache systemctl restart apache2
+4. exit salir del root
